@@ -1,6 +1,6 @@
 tap "fluxcd/tap"
 tap "hashicorp/tap"
-tap "kevinisageek/tap", "git@github.com:kevinisageek/homebrew-tap"
+tap "kevinisageek/tap", "https://github.com/kevinisageek/homebrew-tap"
 brew "shellcheck"
 brew "actionlint"
 brew "age"

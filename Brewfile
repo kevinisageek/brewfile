@@ -1,10 +1,9 @@
 tap "fluxcd/tap"
 tap "hashicorp/tap"
-tap "kevinisageek/tap", "https://github.com/kevinisageek/homebrew-tap"
+tap "kevinisageek/tap"
 brew "shellcheck"
 brew "actionlint"
 brew "age"
-brew "atuin", restart_service: :changed
 brew "awscli"
 brew "borgbackup"
 brew "bottom"
